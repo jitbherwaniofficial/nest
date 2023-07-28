@@ -25,6 +25,10 @@ export class UsersService {
       username: 'nivelle',
       password: 'nivelle',
     },
+    {
+      username: 'Harry',
+      password: 'Harry',
+    },
   ];
 
   getUsers() {
