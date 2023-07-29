@@ -1,5 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { plainToClass } from 'class-transformer';
 import { User, SerializedUser } from 'src/users/types';
 
 @Injectable()
@@ -26,8 +25,12 @@ export class UsersService {
       password: 'nivelle',
     },
     {
-      username: 'Harry',
-      password: 'Harry',
+      username: 'harry',
+      password: 'harry',
+    },
+    {
+      username: 'hermione',
+      password: 'hermione',
     },
   ];
 
